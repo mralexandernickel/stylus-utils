@@ -1,0 +1,14 @@
+{
+  "name": "@mralexandernickel/stylus-utils",
+  "version": "1.0.0",
+  "main": "index.styl",
+  "license": "MIT",
+  "dependencies": {
+    "modern-normalize": "^0.6.0",
+    "stylint": "^2.0.0",
+    "stylus": "^0.54.7"
+  },
+  "scripts": {
+    "lint": "stylint"
+  }
+}
