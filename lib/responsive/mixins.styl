@@ -6,54 +6,68 @@
 // 
 // @link https://github.com/angular/flex-layout/wiki/Responsive-API#mediaqueries-and-aliases
 // =============================================================================
+
+// < 600px
 xs()
   @media screen and (max-width: ($breakpoint--xs - 1))
     {block} // @stylint ignore
 
+// > 600px
 gt-xs()
   @media screen and (min-width: $breakpoint--xs)
     {block} // @stylint ignore
 
+// < 960px
 lt-sm()
   @media screen and (max-width: ($breakpoint--xs - 1))
     {block} // @stylint ignore
 
+// 600px - 960px
 sm()
   @media screen and (min-width: $breakpoint--xs) and (max-width: ($breakpoint--sm - 1))
     {block} // @stylint ignore
 
+// > 960px
 gt-sm()
   @media screen and (min-width: $breakpoint--sm)
     {block} // @stylint ignore
 
+// < 1280px
 lt-md()
   @media screen and (max-width: ($breakpoint--sm - 1))
     {block} // @stylint ignore
 
+// 960px - 1280px
 md()
   @media screen and (min-width: $breakpoint--sm) and (max-width: ($breakpoint--md - 1))
     {block} // @stylint ignore
 
+// > 1280px
 gt-md()
   @media screen and (min-width: $breakpoint--md)
     {block} // @stylint ignore
 
+// < 1280px
 lt-lg()
   @media screen and (max-width: ($breakpoint--md - 1))
     {block} // @stylint ignore
 
+// 1280px - 1920px
 lg()
   @media screen and (min-width: $breakpoint--md) and (max-width: ($breakpoint--lg - 1))
     {block} // @stylint ignore
 
+// > 1920px
 gt-lg()
   @media screen and (min-width: $breakpoint--lg)
     {block} // @stylint ignore
 
+// < 5000px
 lt-xl()
   @media screen and (max-width: ($breakpoint--lg - 1))
     {block} // @stylint ignore
 
+// 1920px - 5000px
 xl()
   @media screen and (min-width: $breakpoint--lg) and (max-width: ($breakpoint--xl - 1))
     {block} // @stylint ignore
